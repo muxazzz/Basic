@@ -131,9 +131,9 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 	url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
 }
 
-@media screen and (min-device-width: 2000px)
+@media screen and (min-device-width: 500px)
 {
 	body {
-		width: 60%;
+		width: 30%;
 	}
 }
