@@ -160,7 +160,14 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 @media screen and (max-width: 900px) {
 	.content_common 
 	{
-		width: 20px;
+		width: 50px;
+		max-width: 50%;
+		height: auto;
+		margin-right: 1vw;
+	}
+
+	body {
+		width: 50px;
 		max-width: 50%;
 		height: auto;
 		margin-right: 1vw;
