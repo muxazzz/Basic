@@ -153,7 +153,7 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		.about {
 			max-width: 10px;
 			width: 10px;
-		display: block;
+		display: ;
 		}
 		p {
 			max-width: 10px;
@@ -167,5 +167,8 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		ul {
 			display: block;
 			text-align: center;
+			justify-content: center;
+			margin: auto;
+			padding: auto;
 		}
 	}
