@@ -178,4 +178,8 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 			padding: auto;
 			margin: auto;
 		}
+		#map {
+			flex: 0 0 33.33%;
+		max-width: 33.33%;
+		}
 	}
