@@ -159,7 +159,6 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		p {
 			max-width: 10px;
 			width: 10px;
-			flex-wrap: wrap;
 		}
 		img {
 			flex-wrap: wrap;
