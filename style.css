@@ -171,4 +171,8 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 			margin: auto;
 			padding: auto;
 		}
+		li {
+			padding: auto;
+			margin: auto;
+		}
 	}
