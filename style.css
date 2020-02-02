@@ -149,11 +149,13 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 			max-width: 100%;
 			width: 100%;
 			flex-wrap: wrap;
+			flex-direction: column;
 		}
 		.about {
 			max-width: 100%;
 			width: 100%;
 			flex-wrap: wrap;
+			flex-direction: column;
 		}
 		p {
 			max-width: 100%;
