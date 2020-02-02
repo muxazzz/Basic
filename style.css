@@ -149,7 +149,7 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 
 	.content_common 
 	{
-		width: 299px;
+		width: 1299px;
 		max-width: 100%;
 		/* height: auto; */
 		margin-right: 1vw;
