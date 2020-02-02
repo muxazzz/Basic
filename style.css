@@ -133,51 +133,32 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 	url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
 }
 @media screen and (max-width: 1286px) {
-	.intro {
-		flex-wrap: nowrap;
-	}
 	.ul {
 		width: 50%;
 		box-sizing: border-box;
 		margin-right: 0;
 		padding-right: 15px;
 	}
-	.intro-heading {
-		font-size: 5vw;
-	}
-	.intro-image-link {
-		width: 50%;
-		height: auto;
-	}
-	.intro-image {
+	.img {
 		width: 100%;
 		height: auto;
-	}
-	.products-wrapper {
-		justify-content: flex-start;
 	}
 	.content {
 		width: 299px;
 		max-width: 100%;
 		/* height: auto; */
 		margin-right: 1vw;
+		flex-direction: column;
+		flex: 0 0 auto;
 	}
-	.feedback-contacts-wrapper {
-		flex-wrap: wrap;
-		padding-left: initial;
-    	padding-right: initial;
-	}
-	.about {
+	.content_common {
 		margin: 0 auto;
 		margin-bottom: 30px;
 		padding: 0 1vw;
 	}
-	.contacts {
+	.about {
 		width: 100%;
 		max-width: 100%;
-	}
-	.contacts-background {
-		display: none;
 	}
 }
 
