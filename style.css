@@ -1,0 +1,139 @@
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: purple;
+	align-items: center;
+	margin: 0 5vw 0 5vw;
+	min-height: 50px;
+	min-width: 50vw;
+	text-align: center;
+	justify-content: space-evenly;
+	list-style: none;
+	flex: 0 0 auto;
+	border-radius: 25px;
+}
+li {
+	color: white;
+	align-items: center;
+	text-align: center;
+	padding: 2em;
+	min-height: 20px;
+	margin: 0px auto;
+}
+
+a:hover {
+	background-color: tomato;
+}
+a {
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+body {
+	background-color: tomato;
+		font-family: sans-serif;
+		height: 100%;
+		
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 5vw;
+	flex-wrap: wrap;
+	margin: 0 5vw 0 5vw;
+}
+
+button {
+	background-color: white;
+	font-size: 14px;
+	color: black;
+	border-radius: 25px;
+
+}
+
+img {
+	opacity: 0.6;
+	max-width:100%;
+	max-height: auto;
+	margin-top: 1em;
+	border-radius: 5px;
+
+}
+
+.popup {
+	background-color: tomato;
+	display: none;
+	color: white;
+	align-items: center;
+	margin-top: 1em;
+	text-align: justify;
+	max-width: 550px;
+}
+
+.visible {
+	display: block;
+	align-items: center;
+}
+
+p {
+	color: white;
+	text-align: justify;
+	width: 45vw;
+}
+
+.about {
+	display: flex;
+	margin: 0 5vw 0 5vw;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-direction: row-reverse;
+	
+}
+
+.content_common {
+	min-height: calc(100vh - 80px);
+}
+
+#map {
+	width: 40vw;
+	height: 300px;
+	background-color: grey;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: purple;
+	height: 80px;
+	border-radius: 15px;
+	color: white;
+	align-items: center;
+	text-align: center;
+}
+
+.p1 {
+	margin-left: 5vw;
+}
+
+@font-face {
+	font-family: "Open Sans";
+src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+	url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+@media screen and (min-device-width: 2000px)
+{
+	body {
+		width: 50%;
+	}
+}

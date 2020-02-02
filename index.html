@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Основы CSS</title>
+	</head>
+	<body>
+		<div class="content_common">
+		<ul>
+	<a href=""><li>О Нас</li></a>
+		<a href=""><li>Производство</li></a>
+			<a href=""><li>Контакты</li></a>
+						<a href=""><li>Наша команда</li></a>
+	</ul>
+
+	<h1>Добро пожаловать</h1>
+	<div class="content">
+	<button class="popup-button">Показать подсказку</button>
+	<div class="popup">CSS — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. 
+	Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, 
+	написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, например, 
+	к SVG или XUL.</div>
+	<img src="img.jpg" width=650vw height=350vh> </img>
+	</div>
+	<div class="about">
+		<p>
+			HTML (HyperText Markup Language — «язык гипертекстовой разметки») — самый базовый строительный блок Веба. Он определяет содержание и структуру веб-контента. Другие технологии, помимо HTML, обычно используются для описания внешнего вида/представления (CSS) или функциональности/поведения (JavaScript) веб-страницы.
+Под гипертекстом ("hypertext") понимаются ссылки, которые соединяют веб-страницы друг с другом либо в пределах одного веб-сайта, либо между веб-сайтами. Ссылки являются фундаментальным аспектом Веба. Загружая контент в Интернет и связывая его со страницами, созданными другими людьми, вы становитесь активным участником Всемирной паутины.
+			</p>
+			<div id="map"></div>
+		</div>
+		</div>
+		<div class="footer">
+			<div class="p1">Все права защищены</div>
+		</div>
+	<script>
+	    	let button = document.querySelector('.popup-button');
+	    	button.addEventListener('click', showPopup);
+	    	function showPopup() {
+	        	document.querySelector('.popup').classList.toggle('visible');
+	        	console.log('showPopup работает');
+	    	}
+		</script>
+	 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<7dc68df0-968e-4379-9c87-822c86fdc79a>" type="text/javascript"></script>
+	 <script src="mapbasics.js" type="text/javascript"></script>
+	</body>
+</html>
