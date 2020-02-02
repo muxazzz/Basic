@@ -160,10 +160,10 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		flex: 0 0 33.33%;
 		max-width: 33.33%;
 		}
-		p {
+		p1 {
 			max-width: 10px;
 			width: 10px;
-			flex: 0 0 33.33%;
+			flex: 1 1 33.33%;
 			max-width: 33.33%;
 		}
 		img {
