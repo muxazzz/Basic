@@ -97,7 +97,7 @@ p {
 	justify-content: space-between;
 	align-items: flex-end;
 	flex-direction: row-reverse;
-	flex: 0 0 33%;
+
 	
 }
 
@@ -111,6 +111,7 @@ p {
 	background-color: grey;
 	border-radius: 10px;
 	opacity: 0.8;
+	flex: 1 1 10wv;
 }
 
 .footer {
@@ -126,6 +127,8 @@ p {
 
 .p1 {
 	margin-left: 5vw;
+	flex: 1 1 10wv;
+
 }
 
 @font-face {
