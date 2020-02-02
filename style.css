@@ -136,7 +136,7 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		flex-wrap: nowrap;
 	}
 	.content {
-		width: 50%;
+		width: 100%;
 		box-sizing: border-box;
 		margin-right: 0;
 		padding-right: 15px;
