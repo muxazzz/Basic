@@ -233,6 +233,8 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		}
 		ul {
 	width: 700px;
+	margin: auto;
+    padding: inherit;
 		}
 		li {
 			padding: auto;
