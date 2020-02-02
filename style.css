@@ -170,8 +170,7 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		.content_common 
 		{
 			width: 20px;
-			max-width: 50%;
+			max-width: 20%;
 			height: 100px;
-			margin-right: 1vw;
 		}
 }
