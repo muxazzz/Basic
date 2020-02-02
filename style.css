@@ -136,10 +136,7 @@ p {
 src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 	url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
 }
-@media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 2) { 
+@media screen and (max-width:300px) { 
 		body {
 			max-width: 10px;
 			width: 10px;
