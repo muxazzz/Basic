@@ -177,12 +177,12 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		.content_common 
 		{
 			width: 20px;
-			max-width: 30px;
+			max-width: 30%;
 			height: 10%;
 		}
 		body {
 			width: 20px;
-			max-width: 30px;
+			max-width: 30%;
 			height: 10%;
 		}
 	}
