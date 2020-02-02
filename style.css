@@ -181,7 +181,7 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 			height: 10%;
 		}
 		body {
-			width: 20px;
+			width: 1vw;
 			max-width: 30%;
 			height: 10%;
 		}
