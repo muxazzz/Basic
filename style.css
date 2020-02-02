@@ -180,6 +180,12 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		max-width: 100%;
 			height: 10%;
 		}
+		.content
+		{
+			width: 100%;
+		max-width: 100%;
+			height: 10%;
+		}
 		body {
 			width: 100%;
 			max-width: 100%;
