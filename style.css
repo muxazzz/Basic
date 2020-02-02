@@ -148,8 +148,7 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		.content {
 			max-width: 10px;
 			width: 10px;
-			flex-wrap: wrap;
-			flex-direction: column;
+			display: block;
 		}
 		.about {
 			max-width: 10px;
