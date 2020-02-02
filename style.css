@@ -149,7 +149,8 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		/* height: auto; */
 		margin-right: 1vw;
 		flex-direction: column;
-		flex: 0 0 auto;
+		flex: 1 1 auto;
+		
 	}
 	.content_common {
 		margin: 0 auto;
@@ -157,8 +158,12 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		padding: 0 1vw;
 	}
 	.about {
-		width: 100%;
+		width: 299px;
 		max-width: 100%;
+		/* height: auto; */
+		margin-right: 1vw;
+		flex-direction: column;
+		flex: 1 1 auto;
 	}
 }
 
