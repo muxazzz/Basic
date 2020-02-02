@@ -187,7 +187,7 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		{
 			flex-wrap: wrap;
 			width: 100%;
-			padding-right: 2vw;
+			padding-right: 1vw;
 		max-width: 100%;
 			height: 10%;
 		}
@@ -203,7 +203,6 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 	justify-content: flex-start;
 		}
 		body {
-			flex-wrap: wrap;
 			width: 100%;
 			padding-right: 2vw;
 			max-width: 100%;
