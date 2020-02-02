@@ -176,8 +176,8 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 	@media screen and (max-width: 100px) {
 		.content_common 
 		{
-			width: 20px;
-			max-width: 30%;
+			width: 1vw;
+			max-width: 1vw;
 			height: 10%;
 		}
 		body {
