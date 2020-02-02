@@ -61,7 +61,6 @@ button {
 img {
 	opacity: 0.6;
 	max-width:40%;
-	max-height: auto;
 	margin-top: 1em;
 	border-radius: 5px;
 	width: 100%;
@@ -73,7 +72,6 @@ img {
 	background-color: tomato;
 	display: none;
 	color: white;
-	align-items: center;
 	margin-top: 1em;
 	text-align: justify;
 	max-width: 73vw;
