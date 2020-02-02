@@ -92,12 +92,11 @@ p {
 
 .about {
 	display: flex;
-	margin: 0 5vw 0 5vw;
+	margin: 5vh 5vw 0 5vw;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: center;
 	flex-direction: row-reverse;
-
 	
 }
 
@@ -128,7 +127,14 @@ p {
 .p1 {
 	margin-left: 5vw;
 	flex: 1 1 10wv;
+	color: white;
+	text-align: justify;
+}
 
+.p2 {
+	color: white;
+	text-align: justify;
+	width: 45vw;
 }
 
 @font-face {
@@ -179,8 +185,5 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 			padding: auto;
 			margin: auto;
 		}
-		#map {
-			flex: 0 0 33.33%;
-		max-width: 33.33%;
-		}
+	
 	}
