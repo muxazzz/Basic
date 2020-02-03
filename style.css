@@ -207,6 +207,8 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 			max-width: 100%;
 			width: 100%;
 		justify-content: space-around;
+		margin: 0;
+		
 		}
 		.about {
 			max-width: 100%;
