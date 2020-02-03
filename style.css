@@ -60,7 +60,7 @@ button {
 
 img {
 	opacity: 0.6;
-	max-width:40%;
+	max-width:40vw;
 	margin-top: 1em;
 	border-radius: 5px;
 	width: 100%;
@@ -109,6 +109,7 @@ p {
 	border-radius: 10px;
 	opacity: 0.8;
 	flex: 1 1 10wv;
+	margin-bottom: 2vh;
 }
 
 .footer {
@@ -181,6 +182,8 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 		}
 		ul {
 		max-width: 100vw;
+		display: flex;
+		justify-content: flex-start;
 		}
 		li {
 
