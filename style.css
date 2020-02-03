@@ -159,7 +159,7 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 			max-width: 100%;
 			width: 100%;
 		flex: 0 0 100%;
-		margin-left: 1vw;
+		margin-left: 3vw;
 		align-items: center;
 		}
 		.p1 {
