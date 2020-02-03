@@ -108,8 +108,7 @@ p {
 	background-color: grey;
 	border-radius: 10px;
 	opacity: 0.8;
-	flex: 1 1 10wv;
-	margin-bottom: 1vh;
+	margin-bottom: 1em;
 }
 
 .footer {
@@ -215,6 +214,7 @@ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
 			width: 100%;
 		flex: 1 1 50%;
 		justify-content: space-around;
+		margin: 2vh auto;
 		}
 		.p1 {
 			max-width: 10px;
