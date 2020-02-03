@@ -60,11 +60,10 @@ button {
 
 img {
 	opacity: 0.6;
-	max-width:40vw;
+	max-width: 40vw;
 	margin-top: 1em;
 	border-radius: 5px;
-	width: 100%;
-	height: auto;
+	max-height: 300px;
 
 }
 
